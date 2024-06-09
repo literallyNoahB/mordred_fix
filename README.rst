@@ -2,6 +2,8 @@ mordred
 =======
 molecular descriptor calculator.
 
+DO NOT FOLLOW THESE INSTRUCTIONS. THIS IS AN UPDATE TO THE DEPRECATED FUNCTIONS WITHIN THE MORDRED PACKAGE. THIS IS NOT AVAILABLE THROUGH PIP.
+
 .. image:: https://travis-ci.org/mordred-descriptor/mordred.svg?branch=master
     :target: https://travis-ci.org/mordred-descriptor/mordred
 
