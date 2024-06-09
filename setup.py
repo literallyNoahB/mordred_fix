@@ -35,7 +35,7 @@ setup(
     long_description=README_rst,
     license="BSD-3-Clause",
     author="Hirotomo Moriwaki",
-    author_email="philopon.dependence@gmail.com",
+    author_email="noahbl@umich.edu",
     url="https://github.com/mordred-descriptor/mordred",
     platforms=["any"],
     keywords="QSAR chemoinformatics",
