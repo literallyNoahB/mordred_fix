@@ -11,12 +11,12 @@ if sys.version_info < (3, 4, 0):
 
 
 def get_version():
-    with open(os.path.join("mordred", "_version.txt")) as f:
+    with open(os.path.join("mordred_fix", "_version.txt")) as f:
         return f.read().strip()
 
 
 def get_test_data():
-    for p, _, fs in os.walk(os.path.join("mordred", "tests", "references")):
+    for p, _, fs in os.walk(os.path.join("mordred_fix", "tests", "references")):
         p = p.split(os.sep)[2:]
 
         for f in fs:
@@ -41,8 +41,8 @@ setup(
     keywords="QSAR chemoinformatics",
     packages=find_packages(),
     package_data={
-        "mordred": ["data/*.txt", "_version.txt"],
-        "mordred.tests": list(get_test_data()),
+        "mordred_fix": ["data/*.txt", "_version.txt"],
+        "mordred_fix.tests": list(get_test_data()),
     },
     install_requires=install_requires,
     tests_require=["nose==1.*", "PyYaml>=4.2b1"],
