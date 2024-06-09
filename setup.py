@@ -29,7 +29,7 @@ with io.open(fndoc, mode="r", encoding="utf-8") as fd:
     README_rst = fd.read()
 
 setup(
-    name="mordred",
+    name="mordred_fix",
     version=get_version(),
     description="molecular descriptor calculator",
     long_description=README_rst,
